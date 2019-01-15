@@ -101,6 +101,15 @@ input, select, textarea {
 		html, body {
 			min-width: 320px;
 		}
+		
+		.lambda {
+			font-size: 60px;
+			margin-left: 8px;
+			margin-top: 5px;
+			color: #ff3333;
+			font-family: 'helvetica'; 
+		}
+		
 
 	}
 
@@ -139,12 +148,27 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 
+			.lambda {
+				font-size: 80px;
+				margin-left: 8px;
+				color: #ff3333;
+				font-family: 'helvetica'; 
+			}
+
 		}
 
 		@media screen and (max-width: 736px) {
 
 			html {
 				font-size: 11pt;
+			}
+
+			.lambda {
+				font-size: 60px;
+				margin-left: 8px;
+				margin-top: 5px;
+				color: #ff3333;
+				font-family: 'helvetica'; 
 			}
 
 		}
